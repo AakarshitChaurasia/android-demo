@@ -11,7 +11,8 @@ DEFINE("DB_NAME","android");
 $con = mysqli_connect(DB_HOST,DB_USER,DB_PASS,DB_NAME);
 
 if(!$con){
-    echo 'could not establish connection';
+    //echo 'could not establish connection';
+    die("Connection failed: " . mysqli_connect_error());
 }
 //}
 
