@@ -25,3 +25,6 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
 //<h1> This site is on </h1>
 
 ?>
+<html>
+ <h1> This site is on.</h1>
+</html>
