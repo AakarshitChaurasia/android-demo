@@ -22,7 +22,7 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
    // mysqli_close($con);
 
    
-
+<h1> This site is on </h1>
 
 
 
